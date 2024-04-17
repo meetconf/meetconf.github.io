@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medicine Engineering Education Technologies Conference</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Conference</title>
 </head>
 <body>
-    <header>
-        <img src="header-image.jpg" alt="Conference Header Image">
-        <h1>Welcome to the Medicine Engineering Education Technologies Conference</h1>
-        <h2>Empowering Innovations in Healthcare Education</h2>
+  <div class="container">
+    <header class="bg-primary py-5 text-center text-white">
+        <div class="container">
+            <img src="header-image.jpg" alt="Conference Header Image" class="img-fluid">
+            <h1>Welcome to the Medicine Engineering Education Technologies Conference</h1>
+            <h2>Empowering Innovations in Healthcare Education</h2>
+        </div>
     </header>
-    <main>
-        <section id="about">
+    <main class="container mt-5">
+        <section id="about" class="mb-5 bg-light p-4">
             <h2>About the Conference:</h2>
-            <p>Join us for an immersive exploration of the intersection between medicine, engineering, education, and technology. Our conference brings together thought leaders, researchers, educators, and practitioners from around the world to discuss and collaborate on the latest advancements in healthcare education technologies.</p>
+            <p>
+                Join us for an immersive exploration of the intersection between medicine, engineering, education, and technology. Our conference brings together thought leaders, researchers, educators, and practitioners from around the world to discuss and collaborate on the latest advancements in healthcare education technologies.
+            </p>
         </section>
         
-        <section id="key-themes">
+        <section id="key-themes" class="mb-5 bg-success p-4">
             <h2>Key Themes:</h2>
             <ul>
                 <li>Bridging the Gap: Integrating Engineering and Medicine</li>
@@ -30,7 +39,7 @@
             </ul>
         </section>
 
-        <section id="why-attend">
+        <section id="why-attend" class="mb-5 bg-warning p-4">
             <h2>Why Attend?</h2>
             <ul>
                 <li>Gain insights from leading experts in the field.</li>
@@ -41,37 +50,44 @@
             </ul>
         </section>
 
-        <section id="date-location">
+        <section id="date-location" class="mb-5 bg-info p-4">
             <h2>Date & Location:</h2>
             <p>[Date] - [Location]</p>
         </section>
 
-        <section id="registration">
+        <section id="registration" class="mb-5 bg-danger p-4">
             <h2>Registration:</h2>
             <p>Early Bird Registration Now Open! Secure your spot today.</p>
-            <button>Register Now</button>
+            <button class="btn btn-light">Register Now</button>
         </section>
 
-        <section id="call-for-papers">
+        <section id="call-for-papers" class="mb-5 bg-secondary p-4">
             <h2>Call for Papers:</h2>
             <p>Submit your abstracts and research papers for presentation at the conference.</p>
-            <button>Submit Paper</button>
+            <button class="btn btn-light">Submit Paper</button>
         </section>
 
-        <section id="stay-connected">
+        <section id="stay-connected" class="mb-5 bg-dark p-4 text-white">
             <h2>Stay Connected:</h2>
             <p>Follow us on social media for updates and announcements.</p>
             <!-- Social media icons can be placed here -->
         </section>
 
-        <section id="contact-us">
+        <section id="contact-us" class="bg-light p-4">
             <h2>Contact Us:</h2>
             <p>For inquiries and sponsorship opportunities, please contact [Email Address].</p>
         </section>
     </main>
-    <footer>
-        <p>Copyright © [Year] Medicine Engineering Education Technologies Conference. All rights reserved.</p>
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <p class="text-center mb-0">Copyright &copy; [Year] Medicine Engineering Education Technologies Conference. All rights reserved.</p>
+        </div>
     </footer>
+  </div>
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
