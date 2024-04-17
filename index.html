@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -6,88 +7,254 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
     <title>Конференция</title>
 </head>
+
 <body>
   <div class="container">
-    <header class="bg-primary py-5 text-center text-white">
-        <div class="container">
-            <img src="banner.png" alt="Изображение заголовка конференции" class="img-fluid">
-            <h1>Добро пожаловать на конференцию по медицинским инженерным образовательным технологиям</h1>
-            <h2>Поддержание инноваций в образовании в области здравоохранения</h2>
+    <section id="home">
+
+      <div class="menu-btn">Меню</div>
+
+      <nav>
+        <a href="#home">Главная</a>
+        <a href="#speakers">Докладчики</a>
+        <a href="#agenda">Программа</a>
+        <a href="#auditorium">Аудитория</a>
+        <a href="#sponsors">Спонсоры</a>
+      </nav>
+
+      <div class="home-content">
+        <h1>Конференция</h1>
+        <h2 class="section-heading">Бишкек • В мае • Международный университет "Ала-Тоо" и Медицинская академия имени И. К. Ахунбаева</h2>
+        <p>
+          С такой предупреждающей этикеткой вы знаете, что они должны быть веселыми! Вероятно, вы готовы к любому из них.
+        </p>
+        <div class="social-icon">
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
         </div>
-    </header>
-    <main class="container mt-5">
-        <section id="about" class="mb-5 bg-light p-4">
-            <h2>О конференции:</h2>
-            <p>
-                Присоединяйтесь к нам в погружении в пересечение медицины, инженерии, образования и технологии. Наша конференция собирает вместе мыслителей, исследователей, педагогов и практиков со всего мира для обсуждения и сотрудничества в последних достижениях в области образовательных технологий в здравоохранении.
-            </p>
-        </section>
-        
-        <section id="key-themes" class="mb-5 bg-success p-4">
-            <h2>Основные темы:</h2>
-            <ul>
-                <li>Преодоление разрыва: интеграция инженерии и медицины</li>
-                <li>Цифровое вмешательство: трансформация образования в здравоохранении</li>
-                <li>Инновации в симуляции и виртуальном обучении</li>
-                <li>Повышение качества ухода за пациентами с помощью технологий</li>
-                <li>Будущие тенденции: формирование ландшафта образования в области здравоохранения</li>
-            </ul>
-        </section>
 
-        <section id="why-attend" class="mb-5 bg-warning p-4">
-            <h2>Почему участвовать?</h2>
-            <ul>
-                <li>Получите знания от ведущих экспертов в области.</li>
-                <li>Общайтесь с профессионалами и коллегами из различных сфер деятельности.</li>
-                <li>Исследуйте передовые технологии, формирующие будущее образования в области здравоохранения.</li>
-                <li>Участвуйте в интерактивных мастер-классах и практических демонстрациях.</li>
-                <li>Представьте свои исследования и проекты широкой аудитории.</li>
-            </ul>
-        </section>
-
-        <section id="date-location" class="mb-5 bg-info p-4">
-            <h2>Дата и место проведения:</h2>
-            <p>[Дата] - [Место]</p>
-        </section>
-
-        <section id="registration" class="mb-5 bg-danger p-4">
-            <h2>Регистрация:</h2>
-            <p>Открыта регистрация по сниженной стоимости! Забронируйте свое место уже сегодня.</p>
-            <button class="btn btn-light">Зарегистрироваться сейчас</button>
-        </section>
-
-        <section id="call-for-papers" class="mb-5 bg-secondary p-4">
-            <h2>Прием статей:</h2>
-            <p>Представьте свои абстракты и исследовательские работы для презентации на конференции.</p>
-            <button class="btn btn-light">Отправить статью</button>
-        </section>
-
-        <section id="stay-connected" class="mb-5 bg-dark p-4 text-white">
-            <h2>Оставайтесь на связи:</h2>
-            <p>Следите за нами в социальных сетях для обновлений и объявлений.</p>
-            <!-- Иконки социальных сетей можно разместить здесь -->
-        </section>
-
-        <section id="contact-us" class="bg-light p-4">
-            <h2>Свяжитесь с нами:</h2>
-            <p>Для запросов и возможностей спонсорства обращайтесь по адресу [Адрес электронной почты].</p>
-        </section>
-    </main>
-    <footer class="bg-dark text-white py-3">
-        <div class="container">
-            <p class="text-center mb-0">Авторские права &copy; [Год] Конференция по медицинским инженерным образовательным технологиям. Все права защищены.</p>
+        <div class="social-icon">
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
         </div>
+        <a class="register-btn hvr-buzz-out" href="#">Зарегистрироваться сейчас</a>
+      </div>
+    </section>
+    <!-- home section -->
+
+    <section id="speakers">
+      <img class="speaker-icon" src="https://image.ibb.co/ixMeYo/music_microphone_old.png" alt="Иконка микрофона" />
+      <h2 class="section-heading">Докладчики</h2>
+      <p>
+        Вы когда-нибудь пытались просто выключить телевизор, сесть с детьми и ударить их? Нет! Вы можете меня раздавить, но не можете разбить мой дух! Этот щенок механический в любом случае?
+      </p>
+
+      <div class="main-speaker">
+        <div class="main-speaker-img-container">
+          <img src="https://images.pexels.com/photos/897314/pexels-photo-897314.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Фото женщины" />
+        </div>
+
+        <div class="main-speaker-info">
+          <h3>Чей-то Кто-то</h3>
+
+          <p>И помните, ничего не делайте, что влияет на что-либо, если оказывается, что вы должны это сделать!</p>
+
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+
+          <span class="tip1"></span>
+        </div>
+      </div>
+      <!-- main speaker -->
+
+      <div class="speakers-container">
+        <div class="speaker">
+          <div class="speaker-img-container">
+            <img src="https://images.pexels.com/photos/953266/pexels-photo-953266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Фото женщины" />
+          </div>
+
+          <div class="speaker-info">
+            <h3>Чей-то Кто-то</h3>
+
+            <p>И помните, ничего не делайте, что влияет на что-либо, если оказывается, что вы должны это сделать.</p>
+
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+
+            <span class="tip2"></span>
+          </div>
+        </div>
+
+        <div class="speaker">
+          <div class="speaker-img-container">
+            <img src="https://images.pexels.com/photos/253758/pexels-photo-253758.jpeg?h=350&auto=compress&cs=tinysrgb" alt="Фото женщины" />
+          </div>
+
+          <div class="speaker-info">
+            <h3>Чей-то Кто-то</h3>
+
+            <p>Если оказывается, что вы должны это сделать, в этом случае, ради всего святого, не не делайте этого!</p>
+
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+
+            <span class="tip3"></span>
+          </div>
+        </div>
+      </div>
+      <!-- speakers container -->
+
+      <div class="speakers-container">
+        <div class="speaker">
+          <div class="speaker-info">
+            <h3>Чей-то Кто-то</h3>
+
+            <p>И помните, ничего не делайте, что влияет на что-либо, если оказывается, что вы должны это сделать.</p>
+
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+
+            <span class="tip4"></span>
+          </div>
+
+          <div class="speaker-img-container">
+            <img src="https://images.pexels.com/photos/818819/pexels-photo-818819.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Фото женщины" />
+          </div>
+        </div>
+
+        <div class="speaker">
+         
+
+ <div class="speaker-info">
+            <h3>Чей-то Кто-то</h3>
+
+            <p>Если оказывается, что вы должны это сделать, в этом случае, ради всего святого, не не делайте этого!</p>
+
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+
+            <span class="tip5"></span>
+          </div>
+
+          <div class="speaker-img-container">
+            <img src="https://images.pexels.com/photos/871495/pexels-photo-871495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Фото женщины" />
+          </div>
+        </div>
+      </div>
+      <!-- speakers container -->
+
+    </section>
+    <!-- speakers section -->
+
+    <section id="agenda">
+      <img class="agenda-icon" src="https://image.ibb.co/gpBreT/basic_alarm.png" alt="Иконка будильника" />
+      <h2 class="section-heading">Программа</h2>
+
+      <p class="section-subtitle">Расписание конференции</p>
+
+      <h2 class="agenda-subheading">Бишкек • В мае • Международный университет "Ала-Тоо" и Медицинская академия имени И. К. Ахунбаева</h2>
+      <div class="events-container">
+        <div class="event-hours-container">
+          <p class="event-hours">8:00</p>
+          <p class="event-hours">8:30</p>
+          <p class="event-hours">9:00 - 12:00</p>
+          <p class="event-hours">12:30 - 13:30</p>
+          <p class="event-hours">13:30 - 17:30</p>
+          <p class="event-hours">17:00</p>
+          <p class="event-hours">18:00 - 21:00</p>
+          <p class="event-hours">21:00</p>
+          <p class="event-hours">19:30 - 21:00</p>
+        </div>
+
+        <div class="event-title-container">
+          <p class="event-title">Регистрация</p>
+          <p class="event-title">Завтрак / Кофе</p>
+          <p class="event-title">Предварительные тренинги перед конференцией</p>
+          <p class="event-title">Обед</p>
+          <p class="event-title">Предварительные тренинги перед конференцией</p>
+          <p class="event-title">Городская экскурсия и развлечения</p>
+          <div class="featured-event">
+
+            <img class="event-icon" src="https://image.ibb.co/frOF68/basic_todo_txt.png" alt="" />
+
+            <p class="feat-event-heading">Доклады на конференции</p>
+            <p class="feat-event">О Боже! Она застряла в бесконечном цикле, а он идиот! Ну, это любовь. Ух ... к тому же с двойным призовым фондом. Мне это не кажется таким блестящим.</p>
+          </div>
+          <p class="event-title">Приветственный ужин</p>
+          <p class="event-title">Прием спонсоров</p>
+        </div>
+      </div>
+    </section>
+    <!-- agenda section -->
+
+    <section id="auditorium">
+      <div class="content-container">
+        <div class="content">
+          <img class="auditorium-icon" src="https://image.ibb.co/iekv68/basic_geolocalize_01.png" alt="" />
+
+          <h2 class="section-heading">Аудитория</h2>
+          <p class="section-subtitle">Местоположение</p>
+
+          <p class="auditorium-address">
+            Корсо Маджента, 52, 20123 Милан
+          </p>
+
+          <p class="auditorium-phone">
+            Тел. +39 02 92881877 Моб. +39 373 8126235
+          </p>
+
+          <p class="auditorium-email">
+            Эл. почта: info@salapastore.it
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- auditorium section -->
+
+    <section id="sponsors">
+      <img class="sponsors-icon" src="https://image.ibb.co/maSmDo/basic_bookmark.png" alt="" />
+
+      <h2 class="section-heading">Спонсоры</h2>
+
+      <p class="section-subtitle">Партнеры конференции</p>
+
+      <div class="sponsor-logo-container">
+        <img class="hp-logo" alt="Логотип HP" src="https://cdn2.iconfinder.com/data/icons/metro-uinvert-dock/256/HP.png" />
+
+        <img class="microsoft-logo" alt="Логотип Microsoft" src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/microsoft-256.png" />
+
+        <img class="blogger-logo" alt="Логотип Blogger" src="https://cdn2.iconfinder.com/data/icons/social-media-icon-set-6/94/blogger-256.png" />
+
+        <img class="vimeo-logo" alt="Логотип Vimeo" src="https://prowly-uploads.s3.amazonaws.com/uploads/PressRoom/563/cover_photo/large_slack-imgs.com.png" />
+
+        <img class="mastercard-logo" alt="Логотип Mastercard" src="https://www.shareicon.net/download/2015/09/18/103190_card.ico" />
+
+        <img class="bausch-logo" alt="Логотип Bausch" src="https://crunchbase-production-res.cloudinary.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1397197824/d7f92ce66c7bc544df29784bb933ed82.gif" />
+      </div>
+
+      <a class="become-sponsor-btn" href="#">Стать спонсором</a>
+    </section>
+    <!-- sponsors section -->
+
+    <footer>
+      <p class="footer-title">Конференция</p>
+
+      <div class="social-icon-container">
+        <a href="mailto
+
+:best@email.com" target="_blank"><img class="email-icon" src="https://image.ibb.co/c1n8R8/basic_mail.png" alt=""/></a>
+
+        <div class="footer-icon">
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+
+        <div class="footer-icon">
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+
+      <a class="register-today-btn" href="#">Зарегистрироваться сегодня</a>
+
+      <span class="copyright">Авторские права &copy; 2015 Pixeden. Все права защищены.</span>
     </footer>
+
   </div>
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
+```
