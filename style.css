@@ -178,3 +178,28 @@ h1 {
 .about-hero__right p {
   font-size: 18px;
 }
+
+.record-header {
+  font-weight: 600;
+  font-size: 50px;
+}
+.record-content {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.record-content__block {
+  width: 610px;
+  height: 260px;
+  border: solid 2px #fff;
+  border-radius: 15px;
+}
+.record-content__block h3 {
+  font-size: 30px;
+  font-weight: bold;
+  background: linear-gradient(to left, #ffa500, #800080);
+  -webkit-background-clip: text;
+  color: transparent;
+}
