@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   color: #333;
   background-color: #000;
+  overflow-x: hidden;
 }
 * {
   color: white;
@@ -272,9 +273,11 @@ h1 {
 }
 
 .card {
+  border: none;
   background-color: transparent;
   width: 350px;
   height: 600px;
+  text-align: left;
 }
 
 .gradient-border-wrapper {
@@ -299,4 +302,74 @@ h1 {
 }
 .card-subtitle {
   margin-bottom: 20px;
+}
+
+.onetoone-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.onetoone-section__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.onetoone-section__header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+.container-onetoone {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: white;
+}
+
+.onetoone-section__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.onetoone-section__text {
+  font-size: 20px;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(
+      135deg,
+      rgba(106, 17, 203, 0.7) 0%,
+      rgba(37, 117, 252, 0.7) 100%
+    ),
+    url("assets/img/footer_background.svg");
+  background-size: cover;
+  background-position: center;
+}
+.footer-content {
+  z-index: 1;
+}
+.footer-content a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
