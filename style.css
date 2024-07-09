@@ -1,22 +1,28 @@
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: Arial, sans-serif;
   color: #333;
+  display: flex;
+  flex-direction: column;
   background-color: #000;
   overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  /* height: 100%; */
+  min-height: 100vh;
 }
 * {
   color: white;
 }
 
-/* header {
-  background-color: #00276d;
-  color: white;
-  padding: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
-
+.main-content {
+  flex: 1;
+}
 header .logo img {
   width: 50px; /* Примерный размер, подгони под свои нужды */
 }
@@ -347,29 +353,62 @@ h1 {
 .onetoone-section__text {
   font-size: 20px;
 }
+
 .footer {
   position: relative;
   width: 100%;
-  height: 500px;
+  height: 600px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background: linear-gradient(
+  text-align: left;
+  background: url("assets/img/footer_background.svg") center/cover,
+    linear-gradient(
       135deg,
-      rgba(106, 17, 203, 0.7) 0%,
-      rgba(37, 117, 252, 0.7) 100%
-    ),
-    url("assets/img/footer_background.svg");
-  background-size: cover;
-  background-position: center;
+      #6a11cb 0%,
+      #6604ce 25%,
+      #c96dd0 50%,
+      #f3804d 75%,
+      #ff8c00 100%
+    );
 }
 .footer-content {
+  /* z-index: 1; */
+}
+.footer__content_left a,
+.footer__content_right a {
+  color: white;
+  margin: 0 10px 0 0;
+
+  /* text-decoration: none; */
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-divider {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 0px;
   z-index: 1;
 }
-.footer-content a {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
+.footer__content_left,
+.footer__content_right {
+  margin: 10px 0 0 0;
+  text-align: left;
+
+  /* text-decoration: none; */
+}
+.footer__content_right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer-header {
+  margin-top: 150px;
+  font-weight: 600;
+  font-size: 30px;
 }
