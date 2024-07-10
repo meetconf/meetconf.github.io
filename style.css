@@ -23,13 +23,6 @@ body {
 .main-content {
   flex: 1;
 }
-header .logo img {
-  width: 50px; /* Примерный размер, подгони под свои нужды */
-}
-
-.meet-logo {
-  width: 0px;
-}
 
 section {
   padding: 20px;
@@ -82,12 +75,20 @@ nav.navbar {
   left: 0;
   width: 400px;
   margin-bottom: 200px;
+  z-index: -1;
+}
+.clip-image-left__768 {
+  display: none;
 }
 .clip-image-right img {
   position: absolute;
   top: 70px;
   right: 0;
   width: 400px;
+  z-index: -1;
+}
+.clip-image-right__768 {
+  display: none;
 }
 
 .header {
@@ -215,7 +216,7 @@ h1 {
 .record-background__img_right {
   position: absolute;
   z-index: -1;
-  right: -400px;
+  right: -0;
   top: 1281px;
 }
 .marquee-container {
@@ -252,12 +253,12 @@ h1 {
 
 .video-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .video-item {
-  margin: 20px;
+  margin-right: 20px;
   text-align: center;
 }
 
@@ -411,4 +412,82 @@ h1 {
   margin-top: 150px;
   font-weight: 600;
   font-size: 30px;
+}
+
+@media (max-width: 1024px) {
+  .about-hero__left_text,
+  .about-hero__right div p {
+    font-size: 16px;
+  }
+  .record-content__block {
+    width: 440px;
+  }
+  .card {
+    width: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-info {
+    font-size: 20px;
+  }
+  .clip-image-left {
+    display: none;
+  }
+  .clip-image-right {
+    display: none;
+  }
+  .clip-image-left__768 {
+    display: block;
+  }
+  .clip-image-left__768 img {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 270px;
+    z-index: -1;
+  }
+  .clip-image-right__768 {
+    display: block;
+  }
+  .clip-image-right__768 img {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 300px;
+    z-index: -1;
+  }
+  .header {
+    margin-top: 100px;
+  }
+  .about-section {
+    padding: 0;
+  }
+  .record-background__img_right {
+    width: 450px;
+    height: 1500px;
+  }
+  .record-background__img_left {
+    width: 600px;
+  }
+  .record-content__block {
+    width: 670px;
+  }
+  .card {
+    width: 220px;
+  }
+  .footer__content_left,
+  .footer__content_right {
+    margin: 10px 0 0 0;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .footer-header {
+    font-size: 28px;
+    margin-top: 50px;
+  }
+  .footer {
+    height: 400px;
+  }
 }
