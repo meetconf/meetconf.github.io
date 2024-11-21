@@ -131,6 +131,7 @@ footer {
 .nav__links {
   width: 420px;
   display: flex;
+  margin: 50px 0px;
   justify-content: space-between;
 }
 .nav__links a {
