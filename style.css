@@ -478,6 +478,9 @@ h1 {
 .filled-circle {
   background-color: rgb(29, 111, 235);
 }
+.filled-circle-green {
+  background-color: rgb(2, 151, 101);
+}
 .circle__wrapper {
   display: flex;
   flex-direction: column;
@@ -593,6 +596,58 @@ h1 {
     text-decoration: none;
     color: white;
   }
+}
+
+/* Modal Container */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000; /* Above all other elements */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* Enable scrolling if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Close Button */
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+/* PDF Link */
+.pdf-link {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.pdf-link:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
