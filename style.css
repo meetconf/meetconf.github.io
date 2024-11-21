@@ -164,6 +164,27 @@ nav.navbar {
   color: #fff;
 }
 
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust this to your desired max width */
+  margin: 0 auto; /* Centers the video */
+  padding-top: 56.25%; /* Aspect ratio: 16:9 */
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; /* Removes default iframe border */
+  border-radius: 8px; /* Adds rounded corners (optional) */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for a modern look (optional) */
+}
+
+
 .navbar-toggler {
   border-color: rgba(255, 255, 255, 0.1);
 }
