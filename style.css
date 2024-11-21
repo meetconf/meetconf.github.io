@@ -81,37 +81,31 @@ footer {
 .item1 {
   grid-column: span 2;
   background-color: #e74c3c;
-  height: 320px;
   text-align: left;
 }
 .item2 {
   grid-column: span 4;
   background-color: #f39c12;
-  height: 320px;
   text-align: left;
 }
 .item3 {
   grid-column: span 4;
   background-color: #3498db;
-  height: 320px;
   text-align: left;
 }
 .item4 {
   grid-column: span 2;
   background-color: #34495e;
-  height: 320px;
   text-align: left;
 }
 .item5 {
   grid-column: span 2;
   background-color: #9b59b6;
-  height: 320px;
   text-align: left;
 }
 .item6 {
   grid-column: span 4;
   background-color: #e74c3c;
-  height: 320px;
   text-align: left;
 }
 
@@ -591,7 +585,7 @@ h1 {
   .item2,
   .item3,
   .item4,
-  .item5
+  .item5,
   .item6 {
     grid-column: span 6;
     width: 100%;
