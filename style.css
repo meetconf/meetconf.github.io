@@ -485,6 +485,9 @@ h1 {
   gap: 3px;
   align-items: center;
 }
+.circle__wrapper p {
+  text-align: center;
+}
 .timeline {
   display: flex;
   align-items: center;
