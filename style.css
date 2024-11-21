@@ -152,7 +152,7 @@ footer {
   display: none;
 }
 nav.navbar {
-  background-color: transparent !important;
+  background-color: #000 !important;
   position: fixed;
   width: 80%;
   margin: 0 auto;
@@ -519,7 +519,7 @@ h1 {
   left: 0;
   width: 100%;
   top: 0px;
-  z-index: 1;
+  z-index: -99;
 }
 .footer__content_left,
 .footer__content_right {
