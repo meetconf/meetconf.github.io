@@ -646,6 +646,7 @@ h1 {
 .pdf-list {
   list-style: none;
   padding: 0;
+  text-align: left;
 }
 
 .pdf-list li {
