@@ -258,6 +258,10 @@ h1 {
   width: fit-content;
   font-weight: 600;
 }
+.secondary-info a {
+  text-decoration: none; 
+  color: white"
+}
 .form_background-image_left {
   position: absolute;
   left: -200px;
