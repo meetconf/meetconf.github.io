@@ -44,6 +44,10 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+.program-section h2 {
+  color: white;
+  text-align: center;
+}
 
 .grid-container {
   display: grid;
@@ -494,6 +498,7 @@ h1 {
 }
 .circle__wrapper p {
   text-align: center;
+  color: white;
 }
 .timeline {
   display: flex;
